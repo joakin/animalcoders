@@ -1,0 +1,16 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Open+Sans+Condensed:700);
+
+body {
+	background: #e2e2e2;
+    background-image: url('../img/50-90-5.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+#container {
+    background-color: #ffffff;
+}
+

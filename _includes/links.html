@@ -1,0 +1,19 @@
+
+<ul class="nav nav-list">
+    {% for link in page.links %}
+        {% if link.header %}
+            <li class="nav-header">
+                <i class='{{ link.icon }}'></i>
+                {{ link.text }}
+            </li>
+        {% else %}
+            <li>
+                <a href='{{ link.url }}'>
+                    <i class='{{ link.icon }}'></i>
+                    {{ link.text }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+

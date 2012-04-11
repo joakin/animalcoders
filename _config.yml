@@ -1,0 +1,9 @@
+---
+markdown: rdiscount
+pygments: true
+paginate: 10
+permalink: /:categories/:title
+
+name: Animal Coders
+url: http://animalcoders.com
+---

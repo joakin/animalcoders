@@ -1,1 +1,46 @@
-First page
+---
+layout: default
+title: Animal Coders
+---
+
+<div id="home">
+
+    <div class='row'>
+        <div class='span8 offset2'>
+            <div class="page-header">
+                <h2>Last posts</h2>
+            </div>
+            <div class='row'>
+                <div class='span5'>
+                    {% for post in site.categories.post limit:1 offset:0 %}
+                        {% assign huge = true %}
+                        {% include post-briefing.html %}
+                    {% endfor %}
+                    {% assign huge = false %}
+                </div>
+                <div class='span3'>
+                    {% for post in site.categories.post limit:4 offset:1 %}
+                        <div>
+                            {% include post-briefing.html %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% for i in (1..4) %}
+                <div class='row'>
+                    {% assign forOffset = 5 + (3*i) %}
+                    {% for post in site.categories.post limit:3 offset:forOffset %}
+                        <div class='span2'>
+                            {% include post-briefing.html %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+            <p class='well'>
+                To view more visit the <a href='/blog'>archive</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,18 @@
+
+    {% if huge == false %}
+        {% assign headerSize = 3 %}
+        {% assign wordsCount = 30 %}
+    {% else %}
+        {% assign headerSize = 1 %}
+        {% assign wordsCount = 160 %}
+    {% endif %}
+    {% assign secondaryHeaderSize = headerSize | minus:3 %}
+
+    <h{{ headerSize }}><a href="{{ post.url }}">{{ post.title }}</a></h{{headerSize}}>
+    <h4>
+        {{ post.date | date_to_string }}
+    </h4>
+
+    <p>{{ post.content | strip_html | truncatewords: wordsCount }}</p>
+    <p><a href="{{ post.url }}">Read more...</a></p>
+
