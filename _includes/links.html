@@ -1,13 +1,21 @@
 
-<ul class="nav nav-list">
+{% assign headerOpen = false %}
+<ul class="nav nav-list well">
     {% for link in page.links %}
         {% if link.header %}
+            {% if headerOpen %}
+                </ul>
+            </li>
+                {% assign headerOpen = false %}
+            {% endif %}
+
             <li class="nav-header">
                 {% if link.icon %}
                     <i class='{{ link.icon }}'></i>
                 {% endif %}
                 {{ link.text }}
-            </li>
+                {% assign headerOpen = true %}
+                <ul>
         {% else %}
             <li>
                 <a href='{{ link.url }}'>
@@ -19,5 +27,9 @@
             </li>
         {% endif %}
     {% endfor %}
+    {% if headerOpen %}
+        </ul>
+    </li>
+    {% endif %}
 </ul>
 
