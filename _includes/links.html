@@ -3,13 +3,17 @@
     {% for link in page.links %}
         {% if link.header %}
             <li class="nav-header">
-                <i class='{{ link.icon }}'></i>
+                {% if link.icon %}
+                    <i class='{{ link.icon }}'></i>
+                {% endif %}
                 {{ link.text }}
             </li>
         {% else %}
             <li>
                 <a href='{{ link.url }}'>
-                    <i class='{{ link.icon }}'></i>
+                    {% if link.icon %}
+                        <i class='{{ link.icon }}'></i>
+                    {% endif %}
                     {{ link.text }}
                 </a>
             </li>
