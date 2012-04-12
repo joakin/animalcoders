@@ -14,9 +14,8 @@ links:
   - text: Code
     icon: icon-th-list
     header: true
-  - text: Github
+  - text: Website repo (github)
     url: https://github.com/joakin/animalcoders/
-    icon: icon-chevron-right
 ---
 
 Que es?
