@@ -21,6 +21,7 @@ body {
 
 .huge-logo {
     text-indent: -999em;
+    max-width: 100%;
 }
 
 .main-banner .coletilla h3{
