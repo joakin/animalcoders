@@ -2,7 +2,13 @@
 animalcoders.com
 ================
 
-Copyright is reserved for everything, I guess. We will figure this out later.
+Esto es el codigo para la web de animalcoders.com
 
-On the master you have materials, and stuff, on gh-pages you get the web page.
+No nos robes, las imagenes y tal tiene copyright, al igual que los posts
+y sesiones.
+
+Para contribuir y mejorar la web mira en animalcoders.com que seguro que algo
+pone, y si no abre un issue y comentalo.
+
+Un abrazo
 
