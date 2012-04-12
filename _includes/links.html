@@ -5,7 +5,6 @@
         {% if link.header %}
             {% if headerOpen %}
                 </ul>
-            </li>
                 {% assign headerOpen = false %}
             {% endif %}
 
@@ -14,22 +13,23 @@
                     <i class='{{ link.icon }}'></i>
                 {% endif %}
                 {{ link.text }}
+            </li>
+
                 {% assign headerOpen = true %}
                 <ul>
         {% else %}
-            <li>
-                <a href='{{ link.url }}'>
-                    {% if link.icon %}
-                        <i class='{{ link.icon }}'></i>
-                    {% endif %}
-                    {{ link.text }}
-                </a>
-            </li>
+                    <li>
+                        <a href='{{ link.url }}'>
+                            {% if link.icon %}
+                                <i class='{{ link.icon }}'></i>
+                            {% endif %}
+                            {{ link.text }}
+                        </a>
+                    </li>
         {% endif %}
     {% endfor %}
     {% if headerOpen %}
-        </ul>
-    </li>
+                </ul>
     {% endif %}
 </ul>
 
