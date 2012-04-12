@@ -10,23 +10,31 @@ title: Animal Coders
             <img src='img/logo.png' class='huge-logo' alt='Animal Coders'>
         </div>
         <div class='span4'>
+            <h3>aprende</h3>
+            <h3>disfruta</h3>
+            <h3>comparte</h3>
         </div>
     </div>
 
     <div class='row'>
-        <div class='span8 offset2'>
+        <div class='span12'>
             <div class="page-header">
-                <h2>Last posts</h2>
+                <h1>
+                    Noticias
+                    <small>
+                        Lo ultimo del blog, vamos
+                    </small>
+                </h1>
             </div>
             <div class='row'>
-                <div class='span5'>
+                <div class='span8'>
                     {% for post in site.categories.post limit:1 offset:0 %}
                         {% assign huge = true %}
                         {% include post-briefing.html %}
                     {% endfor %}
                     {% assign huge = false %}
                 </div>
-                <div class='span3'>
+                <div class='span4'>
                     {% for post in site.categories.post limit:4 offset:1 %}
                         <div>
                             {% include post-briefing.html %}
@@ -38,7 +46,7 @@ title: Animal Coders
                 <div class='row'>
                     {% assign forOffset = 5 + (3*i) %}
                     {% for post in site.categories.post limit:3 offset:forOffset %}
-                        <div class='span2'>
+                        <div class='span3'>
                             {% include post-briefing.html %}
                         </div>
                     {% endfor %}
