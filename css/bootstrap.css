@@ -132,9 +132,9 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Verdana, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-family: 'TenorSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16;
+  line-height: 24px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -321,20 +321,20 @@ a:hover {
   clear: both;
 }
 p {
-  margin: 0 0 9px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Verdana, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  margin: 0 0 12px;
+  font-family: 'TenorSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16;
+  line-height: 24px;
 }
 p small {
-  font-size: 11px;
+  font-size: 14;
   color: #999999;
 }
 .lead {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   font-size: 20px;
   font-weight: 200;
-  line-height: 27px;
+  line-height: 36px;
 }
 h1,
 h2,
@@ -343,8 +343,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: inherit;
-  font-weight: bold;
+  font-family: 'Chau Philomene', Impact;
+  font-weight: normal;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -359,20 +359,20 @@ h6 small {
 }
 h1 {
   font-size: 30px;
-  line-height: 36px;
+  line-height: 48px;
 }
 h1 small {
   font-size: 18px;
 }
 h2 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 48px;
 }
 h2 small {
   font-size: 18px;
 }
 h3 {
-  line-height: 27px;
+  line-height: 36px;
   font-size: 18px;
 }
 h3 small {
@@ -381,7 +381,7 @@ h3 small {
 h4,
 h5,
 h6 {
-  line-height: 18px;
+  line-height: 24px;
 }
 h4 {
   font-size: 14px;
@@ -398,8 +398,8 @@ h6 {
   text-transform: uppercase;
 }
 .page-header {
-  padding-bottom: 17px;
-  margin: 18px 0;
+  padding-bottom: 23px;
+  margin: 24px 0;
   border-bottom: 1px solid #eeeeee;
 }
 .page-header h1 {
@@ -408,7 +408,7 @@ h6 {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 12px 25px;
 }
 ul ul,
 ul ol,
@@ -423,7 +423,7 @@ ol {
   list-style: decimal;
 }
 li {
-  line-height: 18px;
+  line-height: 24px;
 }
 ul.unstyled,
 ol.unstyled {
@@ -431,18 +431,18 @@ ol.unstyled {
   list-style: none;
 }
 dl {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 dt,
 dd {
-  line-height: 18px;
+  line-height: 24px;
 }
 dt {
   font-weight: bold;
-  line-height: 17px;
+  line-height: 23px;
 }
 dd {
-  margin-left: 9px;
+  margin-left: 12px;
 }
 .dl-horizontal dt {
   float: left;
@@ -454,7 +454,7 @@ dd {
   margin-left: 130px;
 }
 hr {
-  margin: 18px 0;
+  margin: 24px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
@@ -478,18 +478,18 @@ abbr.initialism {
 }
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 18px;
+  margin: 0 0 24px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
-  line-height: 22.5px;
+  line-height: 30px;
 }
 blockquote small {
   display: block;
-  line-height: 18px;
+  line-height: 24px;
   color: #999999;
 }
 blockquote small:before {
@@ -514,8 +514,8 @@ blockquote:after {
 }
 address {
   display: block;
-  margin-bottom: 18px;
-  line-height: 18px;
+  margin-bottom: 24px;
+  line-height: 24px;
   font-style: normal;
 }
 small {
@@ -528,7 +528,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 15;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -542,10 +542,10 @@ code {
 }
 pre {
   display: block;
-  padding: 8.5px;
-  margin: 0 0 9px;
-  font-size: 12.025px;
-  line-height: 18px;
+  padding: 11.5px;
+  margin: 0 0 12px;
+  font-size: 14.8;
+  line-height: 24px;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -558,7 +558,7 @@ pre {
   word-wrap: break-word;
 }
 pre.prettyprint {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 pre code {
   padding: 0;
@@ -572,7 +572,7 @@ pre code {
 }
 .label {
   padding: 1px 4px 2px;
-  font-size: 10.998px;
+  font-size: 13.536;
   font-weight: bold;
   line-height: 13px;
   color: #ffffff;
@@ -620,7 +620,7 @@ pre code {
 }
 .badge {
   padding: 1px 9px 2px;
-  font-size: 12.025px;
+  font-size: 14.8;
   font-weight: bold;
   white-space: nowrap;
   color: #ffffff;
@@ -672,12 +672,12 @@ table {
 }
 .table {
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 .table th,
 .table td {
   padding: 8px;
-  line-height: 18px;
+  line-height: 24px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -872,7 +872,7 @@ table .span24 {
   margin-left: 0;
 }
 form {
-  margin: 0 0 18px;
+  margin: 0 0 24px;
 }
 fieldset {
   padding: 0;
@@ -883,15 +883,15 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 27px;
-  font-size: 19.5px;
-  line-height: 36px;
+  margin-bottom: 36px;
+  font-size: 24;
+  line-height: 48px;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #eee;
 }
 legend small {
-  font-size: 13.5px;
+  font-size: 18px;
   color: #999999;
 }
 label,
@@ -899,15 +899,15 @@ input,
 button,
 select,
 textarea {
-  font-size: 13px;
+  font-size: 16;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 24px;
 }
 input,
 button,
 select,
 textarea {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  font-family: 'TenorSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 label {
   display: block;
@@ -920,11 +920,11 @@ select,
 .uneditable-input {
   display: inline-block;
   width: 210px;
-  height: 18px;
+  height: 24px;
   padding: 4px;
   margin-bottom: 9px;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 16;
+  line-height: 24px;
   color: #555555;
   border: 1px solid #cccccc;
   -webkit-border-radius: 3px;
@@ -1234,9 +1234,9 @@ select:focus:required:invalid:focus {
   box-shadow: 0 0 6px #f8b9b7;
 }
 .form-actions {
-  padding: 17px 20px 18px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  padding: 23px 20px 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   background-color: #eeeeee;
   border-top: 1px solid #ddd;
   *zoom: 1;
@@ -1270,7 +1270,7 @@ select:focus:required:invalid:focus {
 }
 .help-block {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 .help-inline {
   display: inline-block;
@@ -1314,10 +1314,10 @@ select:focus:required:invalid:focus {
   display: inline-block;
   width: auto;
   min-width: 16px;
-  height: 18px;
+  height: 24px;
   padding: 4px 5px;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 24px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
   vertical-align: middle;
@@ -1443,14 +1443,14 @@ select:focus:required:invalid:focus {
   margin-right: 3px;
 }
 .control-group {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 legend + .control-group {
-  margin-top: 18px;
+  margin-top: 24px;
   -webkit-margin-top-collapse: separate;
 }
 .form-horizontal .control-group {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   *zoom: 1;
 }
 .form-horizontal .control-group:before,
@@ -1476,7 +1476,7 @@ legend + .control-group {
   *padding-left: 20px;
 }
 .form-horizontal .help-block {
-  margin-top: 9px;
+  margin-top: 12px;
   margin-bottom: 0;
 }
 .form-horizontal .form-actions {
@@ -1490,8 +1490,8 @@ legend + .control-group {
   *zoom: 1;
   padding: 4px 10px 4px;
   margin-bottom: 0;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 16;
+  line-height: 24px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -1572,7 +1572,7 @@ legend + .control-group {
 }
 .btn-large {
   padding: 9px 14px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: normal;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1583,16 +1583,16 @@ legend + .control-group {
 }
 .btn-small {
   padding: 5px 9px;
-  font-size: 11px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 22px;
 }
 .btn-small [class^="icon-"] {
   margin-top: -1px;
 }
 .btn-mini {
   padding: 2px 6px;
-  font-size: 11px;
-  line-height: 14px;
+  font-size: 14px;
+  line-height: 20px;
 }
 .btn-primary,
 .btn-primary:hover,
@@ -2191,8 +2191,8 @@ input[type="submit"].btn.btn-mini {
   margin-left: 5px;
 }
 .btn-toolbar {
-  margin-top: 9px;
-  margin-bottom: 9px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .btn-toolbar .btn-group {
   display: inline-block;
@@ -2328,7 +2328,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav {
   margin-left: 0;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   list-style: none;
 }
 .nav > li > a {
@@ -2343,7 +2343,7 @@ input[type="submit"].btn.btn-mini {
   padding: 3px 15px;
   font-size: 11px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 24px;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -2376,7 +2376,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav-list .divider {
   height: 1px;
-  margin: 8px 1px;
+  margin: 11px 1px;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -2418,7 +2418,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 18px;
+  line-height: 24px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -2632,20 +2632,20 @@ input[type="submit"].btn.btn-mini {
   *position: relative;
   *z-index: 2;
   overflow: visible;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 .navbar-inner {
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#eeeeee));
+  background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2662,16 +2662,16 @@ input[type="submit"].btn.btn-mini {
   padding: 7px 10px;
   margin-left: 5px;
   margin-right: 5px;
-  background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#eeeeee));
+  background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-  border-color: #222222 #222222 #000000;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);
+  border-color: #eeeeee #eeeeee #c8c8c8;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
@@ -2683,11 +2683,11 @@ input[type="submit"].btn.btn-mini {
 .btn-navbar.active,
 .btn-navbar.disabled,
 .btn-navbar[disabled] {
-  background-color: #222222;
+  background-color: #eeeeee;
 }
 .btn-navbar:active,
 .btn-navbar.active {
-  background-color: #080808 \9;
+  background-color: #d5d5d5 \9;
 }
 .btn-navbar .icon-bar {
   display: block;
@@ -2708,7 +2708,7 @@ input[type="submit"].btn.btn-mini {
   height: auto;
 }
 .navbar {
-  color: #999999;
+  color: #222222;
 }
 .navbar .brand:hover {
   text-decoration: none;
@@ -2784,8 +2784,8 @@ input[type="submit"].btn.btn-mini {
   font-weight: normal;
   line-height: 1;
   color: #ffffff;
-  background-color: #626262;
-  border: 1px solid #151515;
+  background-color: #ffffff;
+  border: 1px solid #b3b3b3;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
@@ -2857,28 +2857,28 @@ input[type="submit"].btn.btn-mini {
   float: none;
   padding: 10px 10px 11px;
   line-height: 19px;
-  color: #999999;
+  color: #222222;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar .nav > li > a:hover {
-  background-color: transparent;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
-  background-color: #222222;
+  background-color: #eeeeee;
 }
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: #222222;
-  border-right: 1px solid #333333;
+  background-color: #eeeeee;
+  border-right: 1px solid #ffffff;
 }
 .navbar .nav.pull-right {
   margin-left: 10px;
@@ -2958,7 +2958,7 @@ input[type="submit"].btn.btn-mini {
 }
 .breadcrumb {
   padding: 7px 14px;
-  margin: 0 0 18px;
+  margin: 0 0 24px;
   list-style: none;
   background-color: #fbfbfb;
   background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
@@ -2993,8 +2993,8 @@ input[type="submit"].btn.btn-mini {
   color: #333333;
 }
 .pagination {
-  height: 36px;
-  margin: 18px 0;
+  height: 48px;
+  margin: 24px 0;
 }
 .pagination ul {
   display: inline-block;
@@ -3017,7 +3017,7 @@ input[type="submit"].btn.btn-mini {
 .pagination a {
   float: left;
   padding: 0 14px;
-  line-height: 34px;
+  line-height: 46px;
   text-decoration: none;
   border: 1px solid #ddd;
   border-left-width: 0;
@@ -3056,7 +3056,7 @@ input[type="submit"].btn.btn-mini {
 }
 .pager {
   margin-left: 0;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   list-style: none;
   text-align: center;
   *zoom: 1;
@@ -3112,7 +3112,7 @@ input[type="submit"].btn.btn-mini {
 }
 .thumbnails > li {
   float: left;
-  margin: 0 0 18px 20px;
+  margin: 0 0 24px 20px;
 }
 .thumbnail {
   display: block;
@@ -3143,7 +3143,7 @@ a.thumbnail:hover {
 }
 .alert {
   padding: 8px 35px 8px 14px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -3385,7 +3385,7 @@ a.thumbnail:hover {
 .hero-unit p {
   font-size: 18px;
   font-weight: 200;
-  line-height: 27px;
+  line-height: 36px;
   color: inherit;
 }
 .tooltip {
@@ -3729,7 +3729,7 @@ a.thumbnail:hover {
 }
 .dropdown-menu .divider {
   height: 1px;
-  margin: 8px 1px;
+  margin: 11px 1px;
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
@@ -3741,7 +3741,7 @@ a.thumbnail:hover {
   padding: 3px 15px;
   clear: both;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 24px;
   color: #333333;
   white-space: nowrap;
 }
@@ -3786,7 +3786,7 @@ a.thumbnail:hover {
   border-radius: 4px;
 }
 .accordion {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 .accordion-group {
   margin-bottom: 2px;
@@ -3808,7 +3808,7 @@ a.thumbnail:hover {
 }
 .carousel {
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   line-height: 1;
 }
 .carousel-inner {
@@ -3936,7 +3936,7 @@ a.thumbnail:hover {
   float: right;
   font-size: 20px;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 24px;
   color: #000000;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
@@ -4053,7 +4053,7 @@ a.thumbnail:hover {
   }
   .page-header h1 small {
     display: block;
-    line-height: 18px;
+    line-height: 24px;
   }
   input[type="checkbox"],
   input[type="radio"] {
@@ -4340,7 +4340,7 @@ a.thumbnail:hover {
   }
   .navbar-fixed-top {
     position: static;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
   .navbar-fixed-top .navbar-inner {
     padding: 5px;
@@ -4359,7 +4359,7 @@ a.thumbnail:hover {
   }
   .navbar .nav {
     float: none;
-    margin: 0 0 9px;
+    margin: 0 0 12px;
   }
   .navbar .nav > li {
     float: none;
@@ -4371,14 +4371,14 @@ a.thumbnail:hover {
     display: none;
   }
   .navbar .nav .nav-header {
-    color: #999999;
+    color: #222222;
     text-shadow: none;
   }
   .navbar .nav > li > a,
   .navbar .dropdown-menu a {
     padding: 6px 15px;
     font-weight: bold;
-    color: #999999;
+    color: #222222;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -4388,7 +4388,7 @@ a.thumbnail:hover {
   }
   .navbar .nav > li > a:hover,
   .navbar .dropdown-menu a:hover {
-    background-color: #222222;
+    background-color: #eeeeee;
   }
   .navbar .dropdown-menu {
     position: static;
@@ -4418,10 +4418,10 @@ a.thumbnail:hover {
   .navbar-form,
   .navbar-search {
     float: none;
-    padding: 9px 15px;
-    margin: 9px 0;
-    border-top: 1px solid #222222;
-    border-bottom: 1px solid #222222;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
