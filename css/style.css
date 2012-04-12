@@ -2,17 +2,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic|Open+Sans+Condensed:700);
 
 body {
-	background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .navbar .brand {
     background: transparent url(../img/logo-small-w.png) 20px top no-repeat;
     text-indent: -999em;
     width: 229px;
-    float:right;
+    float: right;
 }
+
+
 
 .huge-logo {
     text-indent: -999em;
 }
 
+.main-banner .coletilla h3{
+    line-height: 52px;
+    font-size:24px;
+}
