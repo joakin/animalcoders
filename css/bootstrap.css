@@ -133,7 +133,7 @@ textarea {
 body {
   margin: 0;
   font-family: 'Tenor Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16;
+  font-size: 16px;
   line-height: 24px;
   color: #333333;
   background-color: #ffffff;
@@ -323,7 +323,7 @@ a:hover {
 p {
   margin: 0 0 12px;
   font-family: 'Tenor Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16;
+  font-size: 16px;
   line-height: 24px;
 }
 p small {
@@ -899,7 +899,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 16;
+  font-size: 16px;
   font-weight: normal;
   line-height: 24px;
 }
@@ -923,7 +923,7 @@ select,
   height: 24px;
   padding: 4px;
   margin-bottom: 9px;
-  font-size: 16;
+  font-size: 16px;
   line-height: 24px;
   color: #555555;
   border: 1px solid #cccccc;
@@ -1490,7 +1490,7 @@ legend + .control-group {
   *zoom: 1;
   padding: 4px 10px 4px;
   margin-bottom: 0;
-  font-size: 16;
+  font-size: 16px;
   line-height: 24px;
   color: #333333;
   text-align: center;
