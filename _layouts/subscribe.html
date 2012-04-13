@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+    <div class='row'>
+        <div class='span5'>
+            <div class="page-header">
+                <h1>
+                    {{ page.title1 }}
+                    <small>{{ page.subtitle1 }}</small>
+                </h1>
+            </div>
+            {{ content }}
+        </div>
+        <div class='span7'>
+            <div class="page-header">
+                <h1>
+                    {{ page.title2 }}
+                    <small>{{ page.subtitle2 }}</small>
+                </h1>
+            </div>
+            {% include sign-up.html %}
+        </div>
+    </div>
