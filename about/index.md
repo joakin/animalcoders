@@ -52,7 +52,7 @@ Quien sois?
 -----------
 
 Somos 2 programadores que cansados de perder las ganas de hacer algo que nos
-gusta por que hay que ganarse el pan hemos decidido empezar a compartir lo que
+gusta hemos decidido empezar a compartir lo que
 sabemos y esperamos recibir y aprender lo mismo de gente con la misma aficion.
 
 Si quieres comentarnos algo, escribenos en twitter
