@@ -1,0 +1,33 @@
+---
+layout: default
+links:
+  - text: Participando
+    icon: icon-eye-open
+    header: true
+  - text: Programando
+    icon: icon-list-alt
+    header: true
+  - text: Ense&nacute;ando
+    icon: icon-gift
+    header: true
+  - text: Publicitando
+    icon: icon-share
+    header: true
+---
+
+<div class='row'>
+    <div class='span3'>
+        <h2>Contribuye!</h2>
+        <div>
+            {% include links.html %}
+        </div>
+    </div>
+    <div class='span7 offset1'>
+        <h1>{{ page.title }}</h1>
+        <div>
+            {{ content }}
+        </div>
+    </div>
+</div>
+{% endif %}
+
