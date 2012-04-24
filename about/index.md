@@ -5,11 +5,11 @@ links:
   - text: Contact
     icon: icon-user
     header: true
-  - text: @AnimalCoders
+  - text: "@AnimalCoders"
     url: http://twitter.com/AnimalCoders
-  - text: @joannava
+  - text: "@joannava"
     url: http://twitter.com/joannava
-  - text: @joakin
+  - text: "@joakin"
     url: http://twitter.com/joakin
   - text: Code
     icon: icon-th-list
