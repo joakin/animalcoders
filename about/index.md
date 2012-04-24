@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About - Animal Coders
+title: About
 links:
   - text: Contact
     icon: icon-user
