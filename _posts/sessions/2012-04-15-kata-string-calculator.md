@@ -21,7 +21,7 @@ links:
   - text: Codigo
     icon: icon-thumbs-up
     header: true
-  - text: [java] @joannava
+  - text: java - @joannava
     url: http://url-al-master-carpeta-del-codigo.es
 ---
 
