@@ -9,7 +9,7 @@ title: Sesiones
         <div class='span8'>
 
             {% assign huge = true %}
-            {% for session in site.categories.session limit:1 %}
+            {% for session in site.categories.session offset:0 limit:1 %}
                 <div class='row'>
                     <div class='span8'>
                         {% include session-briefing.html %}
