@@ -19,7 +19,7 @@ links:
   - text: Origen del enunciado
     url: http://de-donde-sacaste-el-enunciado.es
   - text: Codigo
-    icon: icon-thumbs-up
+    icon: icon-th-list
     header: true
   - text: java - @joannava
     url: http://url-al-master-carpeta-del-codigo.es
