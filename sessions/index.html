@@ -1,0 +1,41 @@
+---
+layout: default
+title: Sesiones
+---
+
+<div id="sessions">
+
+    <div class='row'>
+        <div class='span8'>
+
+            {% assign huge = true %}
+            {% for session in site.categories.session limit:1 %}
+                <div class='row'>
+                    <div class='span8'>
+                        {% include session-briefing.html %}
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% assign huge = false %}
+            {% for session in site.categories.session offset:1 %}
+                <div class='row'>
+                    <div class='span8'>
+                        {% include session-briefing.html %}
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+        <div class='span4'>
+
+            {% include sign-up-banner.html %}
+
+            {% include proposal-banner.html %}
+
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,19 @@
+
+
+    {% if huge == false %}
+        {% assign headerSize = 2 %}
+        {% assign wordsCount = 30 %}
+    {% else %}
+        {% assign headerSize = 1 %}
+        {% assign wordsCount = 160 %}
+    {% endif %}
+    {% assign secondaryHeaderSize = headerSize | minus:3 %}
+
+    <h{{ headerSize }}><a href="{{ session.url }}">{{ session.title }}</a></h{{headerSize}}>
+    <h4>
+        {{ session.date | date_to_string }}
+    </h4>
+
+    <p>{{ session.content | strip_html | truncatewords: wordsCount }}</p>
+    <p><a href="{{ session.url }}">Read more...</a></p>
+
