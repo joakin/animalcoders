@@ -49,11 +49,11 @@ el que quiera a hacer un fork del master, subir su solución y hacer un
 pull request. En la sección de ayuda esta a vuestra disposición un
 manual mas detallado sobre como subir vuestras soluciones.
 
-La siguiente sesión es un Randori que esta preparando [sample][].
+La siguiente sesión es un Randori que esta preparando [sampel][].
 
 [Manteneos al tanto][subscribe]
 
 [guava]: http://code.google.com/p/guava-libraries/wiki/FunctionalExplained
 [minchin]: http://www.youtube.com/watch?v=bBUc_kATGgg 
-[sample]: https://twitter.com/#!/sampel
+[sampel]: https://twitter.com/#!/sampel
 [subscribe]: /subscribe
