@@ -16,7 +16,7 @@
       <title>{{ post.title }}</title>
       <link>http://animalcoders.com{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>Animal Coders</author>
+      <author>contact@animalcoders.com (Animal Coders)</author>
       <guid>http://animalcoders.com{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
