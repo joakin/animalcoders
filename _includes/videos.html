@@ -1,0 +1,6 @@
+
+    {% for video in page.videos %}
+    <h3>{{ video.title }}</h3>
+    <iframe width="560" height="315" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+    {% endfor %}
+
