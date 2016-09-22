@@ -2,6 +2,8 @@
 [animalcoders.com][ac]
 ======================
 
+## NO MANTENIDO / DEPRECATED
+
 Buenas!
 
 Este es el repo de [AnimalCoders.com][ac] . Para ver que es esto dirigete a
